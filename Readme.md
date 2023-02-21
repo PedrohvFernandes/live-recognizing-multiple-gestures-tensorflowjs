@@ -19,7 +19,7 @@ O TensorFlow nada mais é que uma lib de ML(machine learning) da Google que usa 
 
 - Documentação do Fingerpose do andypotato usando o modelo handpose: Para somente uma mão
   - [Lib Fingerpose que usa o TensorFlow](https://github.com/andypotato/fingerpose)
-    - [Npm TensorFlow](https://www.npmjs.com/package/fingerpose)
+    - [Npm FingerPose](https://www.npmjs.com/package/fingerpose)
     - [MediaPipe Handpose TensorFlow](https://github.com/tensorflow/tfjs-models/tree/master/handpose)
 
 - Documentação do Fingerpose do ErickWendel usando  o modelo hand-pose-detection: Para duas mãos
