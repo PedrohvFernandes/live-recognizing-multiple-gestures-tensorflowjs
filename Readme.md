@@ -27,8 +27,8 @@ O TensorFlow nada mais é que uma lib de ML(machine learning) da Google que usa 
     - [Hand Pose Detection](https://github.com/tensorflow/tfjs-models/tree/master/hand-pose-detection)
 
 - Projetos com fingerpose do andypotato:
-  -[Pedra, papel, tesoura](https://github.com/andypotato/rock-paper-scissors)
-    -[Gestos](https://github.com/andypotato/rock-paper-scissors/blob/master/src/js/Gestures.js)
+  - [Pedra, papel, tesoura](https://github.com/andypotato/rock-paper-scissors)
+    - [Gestos](https://github.com/andypotato/rock-paper-scissors/blob/master/src/js/Gestures.js)
 
 
 ## Como usar as libs:
