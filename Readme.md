@@ -9,7 +9,7 @@ O TensorFlow nada mais é que uma lib de ML(machine learning) da Google que usa 
 - [TensorFlow](https://www.tensorflow.org/resources/libraries-extensions?hl=pt-br)
   - [Models Tensor Flow](https://github.com/tensorflow/tfjs-models)
   - [TensorFlow.js Examples](https://github.com/tensorflow/tfjs-examples/)
-- [MediaPipe](mediapipe.dev)
+- mediapipe.dev
 
 - Ex de modelos do TensorFlow e soluções do MediaPipe:
   - [Face Detection TensorFlow](https://github.com/tensorflow/tfjs-models/tree/master/face-detection)
