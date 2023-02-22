@@ -1,11 +1,17 @@
 // import { GestureDescription, Finger, FingerCurl } from 'fingerpose';
+
+// Aqui fica somente a logica pra cada gesto, ou seja da lib do fp. Que posteriormente esse arquivo é  usado no metodo do fp no index.js GestureEstimator(). E no metodo estimate() é passado os keypoints3D(AS JUNTAS DA MÃO) que caso os gestos dos dedos batam com o que esta aqui, aparecera o gesto feito no video com um emoji, por exemplo o rock.
+
 // Pegando as depedencias do FingerPose atraves do window, https://cdn.jsdelivr.net/npm/fingerpose@0.1.0/dist/fingerpose.min.js" type="text/javascript
 const { GestureDescription, Finger, FingerCurl, FingerDirection } = window.fp
 
+// Colocando os gestos no GestureDescription do fp 
 const rockGesture = new GestureDescription('rock') // ✊️
 const paperGesture = new GestureDescription('paper') // 🖐
 const scissorsGesture = new GestureDescription('scissors') // ✂️
 const dontGesture = new GestureDescription('dont') // 🙅‍♂️
+
+// Implementando a logica de cada gesto
 
 // Rock
 // -----------------------------------------------------------------------------
