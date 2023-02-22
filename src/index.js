@@ -226,6 +226,8 @@ async function initCamera(width, height, fps) {
 
   return new Promise(resolve => {
     // O evento loadmetadata é acionado quando os metadados são carregados. Um event
+    // https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve
+    // https://www.freecodecamp.org/portuguese/news/tutorial-de-promises-do-javascript-resolve-reject-e-encadeamento-em-js-e-na-es6/
     video.onloadedmetadata = () => {
       resolve(video)
     }
