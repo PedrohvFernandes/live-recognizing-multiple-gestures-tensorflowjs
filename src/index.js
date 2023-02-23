@@ -120,7 +120,7 @@ async function main() {
     resultLayer.right.innerText = ''
     resultLayer.left.innerText = ''
 
-    // Retorna um array da mão que foi detectada e as coordenadas de cada ponto da mão, ou seja objetos com as coordenadas x e y e z dos dedos, da palma mão, o lado da mão etc.
+    // Retorna um array das mãos que foram detectadas e as coordenadas de cada ponto da mão, ou seja objetos com as coordenadas x e y e z dos dedos, da palma mão, o lado da mão etc.
     // handpose model estimativa de quantas mão estão aparecendo no video
     // get hand landmarks from video
     const hands = await detector.estimateHands(video, {
@@ -128,7 +128,7 @@ async function main() {
       flipHorizontal: true
     })
 
-    // Manipulando o array de mãos, no nosso caso 2 mãos, ou seja right ou left
+    // Manipulando o array de mãos, no nosso caso 2 mãos, ou seja manipulando cada uma delas a right e a left
     // Deixando claro que os keypoints são as coordenadas das juntas de tal dedo ou da palma da mão
     for (const hand of hands) {
       // Manipulando as juntas(keypoints) da mão. A mão retorna as chaves dos pontos da mão, ou seja a propria palma da mão(wrist) possui um ponto e as juntas dos dedos tambem, o lado da mão(handedness) e score. Pra cada ponto ele retora o nome desse ponto, que são as juntas da quele dedo ou a propria palma da mão.
